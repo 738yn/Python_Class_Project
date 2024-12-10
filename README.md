@@ -1,23 +1,8 @@
-import turtle
-
-# 创建一个Turtle窗口
-screen = turtle.Screen()
-screen.title("五角星图案")
-
-# 创建一个Turtle对象
-pen = turtle.Turtle()
-
-# 设置画笔速度
-pen.speed(3)
-
-# 五角星的边长
-side_length = 100
-
-# 绘制五角星
-for _ in range(5):
-    pen.forward(side_length)  # 向前移动
-    pen.right(144)            # 向右转144度（360度 / 5 * 2 = 144度，因为五角星的内角是36度，外角是144度）
-
-# 完成绘制后隐藏画笔并显示窗口
-pen.hideturtle()
-turtle.done()
+1.项目简介：说明你的选题及程序的目标。
+    使用 Turtle 模块绘制一个五角星图案。
+2.使用说明：列出程序的运行环境和操作步骤。
+    运行环境：python
+    
+3.运行截图：展示程序运行的结果图像或输出。
+    
+![输入图片说明](%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-12-10%20185303.png)
